@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/iqbal', function(){
+    dd('iqbal');
+});
+Route::get('/iqbal/delete', function(){
+    dd('delete');
+});
