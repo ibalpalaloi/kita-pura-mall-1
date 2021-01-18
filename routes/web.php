@@ -22,3 +22,6 @@ Route::get('/iqbal', function(){
 Route::get('/iqbal/delete', function(){
     dd('delete');
 });
+Route::get('/main', function () {
+    dd('main');
+});
