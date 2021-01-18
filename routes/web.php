@@ -25,3 +25,9 @@ Route::get('/iqbal/delete', function(){
 Route::get('/main', function () {
     dd('main');
 });
+Route::get('/fatul', function () {
+    dd('fatul');
+});
+Route::get('/fatul/push', function () {
+    dd('fatul push');
+});
